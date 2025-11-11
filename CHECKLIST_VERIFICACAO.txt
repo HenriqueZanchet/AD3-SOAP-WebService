@@ -1,0 +1,135 @@
+==============================================================
+           CHECKLIST DE VERIFICACAO FINAL - AD3
+==============================================================
+
+DATA: 11 de Novembro de 2025
+HORA: 14:00 (Horario de Brasilia)
+STATUS: VERIFICACAO COMPLETA
+
+==============================================================
+1. ESTRUTURA DO PROJETO
+==============================================================
+
+[x] Pasta python/ - Contendo scripts SOAP
+    [x] obter_ufs.py - Implementado
+    [x] obter_endereco_por_cep.py - Implementado
+
+[x] Pasta prints/ - Contendo resultados de execucao
+    [x] resultado_obter_ufs.txt - Gerado
+    [x] resultado_obter_endereco_por_cep.txt - Gerado
+
+[x] Documentacao
+    [x] README.md - Documentacao completa
+    [x] EXECUCAO.md - Relatorio de execucao
+    [x] run_soap_tests.sh - Script de automacao
+
+==============================================================
+2. VERIFICACAO GIT
+==============================================================
+
+[x] Repositorio inicializado com sucesso
+    URL: https://github.com/HenriqueZanchet/AD3-SOAP-WebService
+
+[x] Commits registrados:
+    1. 4beb8af - Initial commit
+    2. 184706a - AD3: Implementacao completa de cliente SOAP
+    3. 2a33fde - Adicionar relatorio de execucao
+    4. bbf36a6 - Adicionar resultados finais das execucoes
+
+[x] Push para GitHub realizado com sucesso
+    Status: Sincronizado (working tree clean)
+
+==============================================================
+3. VERIFICACAO DE CONFORMIDADE COM ATIVIDADE
+==============================================================
+
+[x] Requisitos da AD3 atendidos:
+    [x] Utilizar Web Service de CEPs do DataSUS
+    [x] Implementar exemplo em linguagem escolhida (Python)
+    [x] Fazer ao menos duas chamadas a funcoes SOAP
+        - Chamada 1: ObterUFs()
+        - Chamada 2: ObterEnderecoPorCEP(CEP="88337070")
+    [x] Considerar endereco do WSDL
+        URL: http://paraiso.datasus.gov.br/cep/cep.asmx?WSDL
+    [x] Cada chamada em arquivo diferente (sim, em arquivos separados)
+    [x] Incluir codigos em arquivo compactado (ZIP pronto)
+    [x] Incluir prints das execucoes (arquivos de resultado gerados)
+
+==============================================================
+4. ARQUIVOS ENTREGAVEIS
+==============================================================
+
+[x] Arquivo ZIP: AD3-SOAP-WebService.zip
+    Tamanho: 3.7 KB
+    Localizacao: /workspaces/AD3-SOAP-WebService.zip
+    Estrutura:
+    - python/obter_ufs.py
+    - python/obter_endereco_por_cep.py
+    - prints/resultado_obter_ufs.txt
+    - prints/resultado_obter_endereco_por_cep.txt
+    - run_soap_tests.sh
+    - README.md
+    - EXECUCAO.md
+
+[x] Repositorio GitHub: 
+    https://github.com/HenriqueZanchet/AD3-SOAP-WebService
+
+==============================================================
+5. TECNOLOGIAS UTILIZADAS
+==============================================================
+
+[x] Linguagem: Python 3
+[x] Biblioteca SOAP: Zeep
+[x] Ambiente: GitHub Codespaces + VS Code Web
+[x] Versionamento: Git + GitHub
+[x] Servico: DataSUS CEP Web Service
+
+==============================================================
+6. EXECUCOES REALIZADAS
+==============================================================
+
+[x] Chamada 1: ObterUFs()
+    Status: Executado com sucesso
+    Resultado: Salvo em prints/resultado_obter_ufs.txt
+
+[x] Chamada 2: ObterEnderecoPorCEP(CEP="88337070")
+    Status: Executado com sucesso
+    CEP utilizado: 88337070 (Camboriu - SC)
+    Resultado: Salvo em prints/resultado_obter_endereco_por_cep.txt
+
+==============================================================
+7. INSTRUCOES FINAIS PARA ENVIO
+==============================================================
+
+[x] Passo 1: Clone o repositorio (opcional)
+    git clone https://github.com/HenriqueZanchet/AD3-SOAP-WebService
+
+[x] Passo 2: Fazer download do ZIP
+    Arquivo: AD3-SOAP-WebService.zip
+    Size: 3.7 KB
+    Pronto para envio
+
+[x] Passo 3: Enviar para o Moodle
+    - Acessar Moodle da disciplina
+    - Ir para atividade AD3
+    - Clicar em "Adicionar envio"
+    - Selecionar arquivo: AD3-SOAP-WebService.zip
+    - Confirmar envio
+
+==============================================================
+RESUMO FINAL
+==============================================================
+
+TODAS AS VERIFICACOES FORAM COMPLETADAS COM SUCESSO!
+
+O projeto esta completo, documentado, versionado no GitHub
+e pronto para ser enviado ao Moodle.
+
+Nenhum arquivo ou commit foi deixado para tras.
+Tudo esta sincronizado no repositorio GitHub.
+
+==============================================================
+Assinado: Verificacao Automatizada
+Data: 11/11/2025 14:00
+Status: PRONTO PARA ENTREGA
+==============================================================
