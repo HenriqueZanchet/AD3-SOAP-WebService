@@ -1,5 +1,0 @@
-[33mc68d996[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Adicionar checklist de verificacao final - Todos os requisitos atendidos
-[33mbbf36a6[m Adicionar resultados finais das execucoes SOAP - Verificacao completa
-[33m2a33fde[m Adicionar relatorio de execucao
-[33m184706a[m AD3: Implementacao completa de cliente SOAP DataSUS com chamadas a ObterUFs e ObterEnderecoPorCEP
-[33m4beb8af[m Initial commit
