@@ -7,12 +7,10 @@ Retorna dados de endereço para um CEP específíco
 """
 
 from zeep import Client
-from zeep.transports import Transport
-from requests import Session
 
 def main():
     WSDL_URL = "http://paraiso.datasus.gov.br/cep/cep.asmx?WSDL"
-    CEP = "88337070"
+    CEP = 88337070
     
     print("\n" + "="*70)
     print("ATIVIDADE DE APRENDIZAGEM A DISTÂNCIA 3 (AD3)")
@@ -22,19 +20,14 @@ def main():
     print(f"URL WSDL: {WSDL_URL}")
     
     try:
-        # Criar sessão com timeout
-                session = Session()
-                        session.timeout = 30
-                                
-                                        transport = Transport(session=session)
-                        client = Client(wsdl=WSDL_URL, transport=transport)
+        client = Client(wsdl=WSDL_URL)
         
         print("\n✓ Cliente SOAP criado com sucesso!")
         print("\n" + "-"*70)
         print(f"CHAMADA 2: ObterEnderecoPorCEP(CEP='{CEP}')")
         print("-"*70)
         
-        resultado = client.service.ObterEnderecoPorCEP(CEP=CEP)
+        resultado = client.service.ObterEnderecoPorCEP(CEP)
         
         print("\n✓ Chamada realizada com sucesso!")
         print("\nRESULTADO:")
